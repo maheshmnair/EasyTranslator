@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="w-full max-w-md bg-white shadow-md rounded-lg p-6">
+            
+            <div class="text-center font-bold text-2xl mb-4">
+                <h1>Easy Translator</h1>
+            </div>
+            
+            <div class="field1">
+                <label for="word" class="block text-sm font-medium text-gray-700">Word</label>
+                <input type="text" id="word" name="word"
+                    class="inputBox">
+            </div>
+            
+            <div class="field2">
+                <label for="language" class="block text-sm font-medium text-gray-700">Language</label>
+                <input type="text" id="language" name="language"
+                    class="inputBox">
+            </div>
+            
+            <div class="generate">
+                <button type="submit" id="generateButton"
+                    class="generate">Generate</button>
+            </div>
+
+            <div class="footer">
+                Created by <a href="" class="text-blue-500 hover:underline">Mahesh</a>,
+                <a href="" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Github        </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="results-container" class="container mx-auto">
+        <div id="generated-words" class="generated-words-container flex justify-center"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
