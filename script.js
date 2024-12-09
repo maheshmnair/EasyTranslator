@@ -54,7 +54,7 @@ async function generateWords(word, language) {
         {
             "parts": [
             {
-                "text": `You are an AI designed to translate words. Your mission is to translate the English word ${word} and provide it's translated word in the ${language} language. Generated Word: (Print only word and it there is any other then separate it by commas)\n`
+                "text": `You are an AI designed to translate words from English. Your mission is to translate the provided English word ${word} to it's correspoinding word in the ${language} language. Make sure to provide the exact translation. Generated Tranlated Word: (Print only one word and if there is any other then separate it by commas)\n`
             }
             ]
         }
