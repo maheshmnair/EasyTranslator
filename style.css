@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,  sans-serif;
+}
+  
+  /* Update typography */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+  }
+  
+  /* Update layout */
+  .container {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 40px 30px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container h1{
+    font-weight: bold;
+    margin-bottom: 36px;
+    border: 3px solid rgb(49, 98, 203); 
+    border-radius: 10px;
+    padding: 10px; 
+    text-align: center; 
+    color: #000000; 
+  }
+  
+  /* Update spacing */
+  .spacing {
+    margin-bottom: 36px;
+  }
+  
+  /* Update button styles */
+  .generate {
+    width: 100%;
+    padding: 12px 0px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000; 
+    background-color: #3162cb;
+    cursor: pointer;
+  }
+  
+  .generate:hover {
+    background-color: #2d6ff2;
+  }
+  
+  /* Update input styles */
+  .inputBox {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #f2f2f2;
+    color: #333;
+    outline: none;
+  }
+  
+  /* Update field styles */
+  .field1, .field2 {
+    margin-bottom: 15px;
+  }
+  
+  /* Update footer styles */
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #3162cb;
+  }
+  
+  /* Update generated words container */
+  #results-container {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .generated-words-container {
+    overflow: auto;
+    padding: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .generated-words-button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }  
