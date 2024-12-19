@@ -16,7 +16,7 @@ generateButton.addEventListener('click', async () => {
 
         if (remainingTime > 0) {
             const remainingSeconds = Math.ceil(remainingTime / 1000);
-            alert(`Gemini API only allows 60 request/minute. Please wait ${remainingSeconds} seconds before generating again.`);
+            alert(`Sorry, the AI only allows only 60 requests in a minute. Please wait for ${remainingSeconds} more seconds before generating again.`);
             return;
         }
 
