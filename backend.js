@@ -2,7 +2,7 @@ export default {
 	
 	async fetch(request) {
 		const apiKey = 'GEMINI_API_KEY'; // Replace with your actual API key
-		const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=' + apiKey;
+		const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey;
 
 		// Extract parameters from the URL
 		const url = new URL(request.url);
