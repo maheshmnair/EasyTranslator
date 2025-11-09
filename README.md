@@ -4,6 +4,7 @@ A minimal, browser-based translator that uses Google’s Gemini models.
 
 🔗 **Live demo:** https://easytranslatorai.netlify.app
 
+
 ## Features
 - Translate text between languages
 - Simple, clean UI (HTML/CSS/JS)
@@ -23,3 +24,14 @@ cd EasyTranslator
 - **With backend proxy (recommended for API keys):**
   - Set your Gemini API key in the server code or as an environment variable.
   - Start the server and open the URL it prints.
+
+
+## Config
+- Get a Gemini API key from Google AI Studio.
+- Add it to the frontend or the backend.js proxy (recommended to avoid exposing keys).
+
+## Folder structure
+- index.html – UI
+- style.css – styles
+- script.js – client logic
+- backend.js – optional Node proxy for the Gemini API
