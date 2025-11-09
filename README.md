@@ -1,7 +1,10 @@
 # EasyTranslator
 
-#### This is simple translator app made using HTML, CSS, JavaScript and incorporating Google's Gemini AI.
+A minimal, browser-based translator that uses Google’s Gemini models.
 
-The project can be experienced here - [EasyTranslator](https://easytranslatorai.netlify.app/)
+🔗 **Live demo:** https://easytranslatorai.netlify.app
 
-> #### The project is still in the making!
+## Features
+- Translate text between languages
+- Simple, clean UI (HTML/CSS/JS)
+- Optional backend proxy (see `backend.js`) to keep API keys server-side
